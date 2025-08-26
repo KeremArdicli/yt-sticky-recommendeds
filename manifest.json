@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Right Panel Fix",
+  "version": "1.0",
+  "description": "Sağ taraftaki öneriler panelini videonun yüksekliği kadar yapar ve scroll ekler.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
