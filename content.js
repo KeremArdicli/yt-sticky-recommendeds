@@ -14,6 +14,7 @@ function adjustSidebar() {
 
     itemsContainer.style.maxHeight = totalHeight + "px";
     itemsContainer.style.overflowY = "auto";
+    itemsContainer.style.overflowX = "clip";
     secondaryInner.style.position = "sticky";
     secondaryInner.style.top = "72px";
   }
