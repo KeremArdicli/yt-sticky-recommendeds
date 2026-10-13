@@ -2,7 +2,7 @@ function adjustSidebar() {
   const primary = document.querySelector("#primary");
   const secondary = document.querySelector("#secondary");
   const secondaryInner = document.querySelector("#secondary-inner");
-  const player = document.querySelector("#player");
+  const player = document.querySelector("div#player");
   const title = document.querySelector("#title");
   const topRow = document.querySelector("#top-row");
   const itemsContainer = document.querySelector("#items ytd-item-section-renderer");
